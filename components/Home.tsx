@@ -45,7 +45,7 @@ export default function Home() {
         <div className="grid gap-8 md:grid-cols-2">
         <motion.div  className="bg-white rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300"
               whileHover={{ scale: 1.05 }}>
-                <a target="_blank" href='https://pathfinding-visualiser-7g2c443m7-tushars-projects-8a8c1c6b.vercel.app/'>
+                <a target="_blank" href='https://pathfinding-visualiser-three.vercel.app/'>
               <Image src={`/images/proj2.webp`} alt={`Project 1`} width={600} height={300} className="object-cover w-full h-60" />
               <div className="p-6">
                 <h3 className="font-bold text-xl mb-2">Pathfinding Visualizer</h3>
