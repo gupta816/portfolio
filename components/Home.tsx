@@ -46,17 +46,17 @@ export default function Home() {
       
             <motion.div  className="bg-white rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300"
               whileHover={{ scale: 1.05 }}>
-                <a href='https://github.com/gupta816/My-Projs/tree/main/PhotoEditor'>  
-              <Image src={`/images/proj1.jpg`} alt={`Project 1`} width={600} height={300} className="object-cover w-full h-60" />
+                <a target="_blank" href='https://fitness-tracker-chi-six.vercel.app/'>  
+              <Image src={`/images/proj1.jpeg`} alt={`Project 1`} width={600} height={300} className="object-cover w-full h-60" />
               <div className="p-6">
-                <h3 className="font-bold text-xl mb-2">Photo Editor (3-D Arrays)</h3>
-                <p className="text-gray-600">• Used 3 D Arrays to develop photo editor supporting more than 5 functions flip, rotate, resize, greyscale, etc</p>
+                <h3 className="font-bold text-xl mb-2">Fitness Tracker </h3>
+                <p className="text-gray-600">A fitness tracker frontend built with Next.js and TypeScript. It features localStorage-based auth, input validations, and a progress chart using Chart.js.</p>
               </div>
               </a>
             </motion.div>
              <motion.div  className="bg-white rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300"
               whileHover={{ scale: 1.05 }}>
-                <a href='https://github.com/gupta816/Quantum-Computing'>
+                <a target="_blank" href='https://github.com/gupta816/Quantum-Computing'>
               <Image src={`/images/proj2.jpg`} alt={`Project 1`} width={600} height={300} className="object-cover w-full h-60" />
               <div className="p-6">
                 <h3 className="font-bold text-xl mb-2">Quantum Algorithms (Qiskit)</h3>
