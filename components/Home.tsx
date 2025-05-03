@@ -43,7 +43,16 @@ export default function Home() {
       <section id="projects" className="max-w-6xl mx-auto py-16 px-4">
         <h2 className="text-3xl font-bold mb-8 text-center text-gray-900">Projects</h2>
         <div className="grid gap-8 md:grid-cols-2">
-      
+        <motion.div  className="bg-white rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300"
+              whileHover={{ scale: 1.05 }}>
+                <a target="_blank" href='https://pathfinding-visualiser-7g2c443m7-tushars-projects-8a8c1c6b.vercel.app/'>
+              <Image src={`/images/proj2.webp`} alt={`Project 1`} width={600} height={300} className="object-cover w-full h-60" />
+              <div className="p-6">
+                <h3 className="font-bold text-xl mb-2">Pathfinding Visualizer</h3>
+                <p className="text-gray-600">This project is a pathfinding visualizer built with Next.js and TypeScript, allowing users to visualize various graph traversal algorithms on a 2D grid. Users can select algorithms, set start and end points, add obstacles, and watch the algorithm traverse the grid with animations. </p>
+              </div>
+              </a>
+            </motion.div>
             <motion.div  className="bg-white rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300"
               whileHover={{ scale: 1.05 }}>
                 <a target="_blank" href='https://fitness-tracker-chi-six.vercel.app/'>  
@@ -54,16 +63,7 @@ export default function Home() {
               </div>
               </a>
             </motion.div>
-             <motion.div  className="bg-white rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300"
-              whileHover={{ scale: 1.05 }}>
-                <a target="_blank" href='https://github.com/gupta816/Quantum-Computing'>
-              <Image src={`/images/proj2.jpg`} alt={`Project 1`} width={600} height={300} className="object-cover w-full h-60" />
-              <div className="p-6">
-                <h3 className="font-bold text-xl mb-2">Quantum Algorithms (Qiskit)</h3>
-                <p className="text-gray-600">Solved Scientific problems in Jupyter Notebook using IBM cloud-based Quantum Computer</p>
-              </div>
-              </a>
-            </motion.div>
+           
         </div>
       </section>
 
