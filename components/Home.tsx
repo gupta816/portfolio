@@ -18,9 +18,6 @@ export default function Home() {
           <a href="mailto:kumar.tushar816@gmail.com" className="flex items-center gap-2 hover:text-blue-700 transition">
             <Mail size={20} /> kumar.tushar816@gmail.com
           </a>
-          <span className="flex items-center gap-2">
-            <Phone size={20} /> +91 9752303887
-          </span>
           <a href="https://www.linkedin.com/in/tushar-kumar-5a4308174/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-blue-700 transition">
             <Linkedin size={20} /> LinkedIn
           </a>
